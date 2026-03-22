@@ -1,0 +1,14 @@
+# 普通输出（最小信息）
+ansible-playbook playbook.yml
+
+# -v: 显示任务名称和结果
+ansible-playbook playbook.yml -v
+
+# -vv: 显示任务结果和配置信息（推荐）
+ansible-playbook playbook.yml -vv
+
+# -vvv: 显示连接信息和详细结果
+ansible-playbook playbook.yml -vvv
+
+# -vvvv: 显示所有调试信息（包括连接插件参数）
+ansible-playbook playbook.yml -vvvv
