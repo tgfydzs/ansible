@@ -12,3 +12,7 @@ ansible-playbook playbook.yml -vvv
 
 # -vvvv: 显示所有调试信息（包括连接插件参数）
 ansible-playbook playbook.yml -vvvv
+
+
+
+ansible a1 -m setup | grep
